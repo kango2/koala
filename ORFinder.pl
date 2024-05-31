@@ -25,7 +25,7 @@ runcommand("hmmscan --cpu $config->{'threads'} --tblout $config->{'outputbase'}.
 ##process hmmscan output to generate final OR list
 &processhmmscan;
 ##delete unwanted files
-runcommand("rm -f $config->{'reffasta'} $config->{rhodopsinhmm}");
+
 
 
 sub configure {
